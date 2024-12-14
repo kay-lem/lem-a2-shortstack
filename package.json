@@ -1,0 +1,21 @@
+{
+  "name": "a2-kay-lem",
+  "version": "0.1.0",
+  "description": "CS4241 Assignment 2",
+  "author": "Kayla Lem",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kay-lem/a2-shortstack.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mime": "^2.4.4"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}

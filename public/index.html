@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CS4241 Assignment 2</title>
+    <meta charset="utf-8">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- get rid of favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      
+      <form method="POST" name="duedatetable">
+      <br>
+          Due Date <input type="date" name="dueDate"> 
+          Event: <input type="text" name="event">
+          <br><br>
+          <input type="button" name="add" value="Add Data" onclick="addEvent();" class="btn btn-success"><hr>
+      
+                  <table class="tbl" border="1">
+                      <thead>
+                      <th>Priority</th>
+                      <th>Due Date</th> 
+                      <th>Event</th>
+                      <th>Delete</th>
+                     
+                      </thead>
+                      
+                       <tbody>
+                           
+                       </tbody>
+                   </table>
+      
+      </form>
+      
+       
+      </div>
+  </body>
+</html>

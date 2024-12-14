@@ -1,0 +1,29 @@
+body {
+  background-color: #95b5f1;
+}
+h1 {
+  color: blue;
+  font-family:cursive;
+  font:bolder;
+  text-align: center;
+}
+
+form[name="duedatetable"] {
+  background-color: #f1c595;
+  font-family:cursive;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.btn.btn-success {
+  background-color: rgb(84, 182, 84);
+  font-family: cursive;
+  color: white;
+}
+
+.tbl {
+  font-family:cursive;
+  margin-left: auto;
+  margin-right: auto;
+}
