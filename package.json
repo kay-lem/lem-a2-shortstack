@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kay-lem/a2-shortstack.git"
+    "url": "git+https://github.com/kay-lem/lem-a2-shortstack.git"
   },
   "scripts": {
     "start": "node server.js"
